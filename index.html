@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Funções em JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Maior e Menor Valor</h1>
+  
+  <form>
+    <label for="valor1">Valor 1:</label>
+    <input type="number" id="valor1" name="valor1"><br>
+  
+    <label for="valor2">Valor 2:</label>
+    <input type="number" id="valor2" name="valor2"><br>
+  
+    <label for="valor3">Valor 3:</label>
+    <input type="number" id="valor3" name="valor3"><br>
+  
+    <label for="valor4">Valor 4:</label>
+    <input type="number" id="valor4" name="valor4"><br>
+  
+    <label for="valor5">Valor 5:</label>
+    <input type="number" id="valor5" name="valor5"><br>
+  
+    <button type="button" onclick="calcularMaiorMenor()">Calcular</button>
+  </form>
+  
+  <div id="resultado-maior-menor"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <h1>Vogal ou Não Vogal</h1>
+  
+  <form>
+    <label for="caractere">Caractere:</label>
+    <input type="text" id="caractere" name="caractere" maxlength="1"><br>
+  
+    <button type="button" onclick="verificarVogal()">Verificar</button>
+  </form>
+  
+  <div id="resultado-vogal"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <h1>Números Pares e Somatório</h1>
+  
+  <form>
+    <label for="limite-inferior">Limite Inferior:</label>
+    <input type="number" id="limite-inferior" name="limite-inferior"><br>
+  
+    <label for="limite-superior">Limite Superior:</label>
+    <input type="number" id="limite-superior" name="limite-superior"><br>
+  
+    <button type="button" onclick="calcularLimites()">Calcular</button>
+  </form>
+  
+  <div id="numeros-pares"></div>
+  <div id="somatorio"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <h1>Ordem Crescente</h1>
+  
+  <form>
+    <label for="valor-a">Valor A:</label>
+    <input type="number" id="valor-a" name="valor-a"><br>
+  
+    <label for="valor-b">Valor B:</label>
+    <input type="number" id="valor-b" name="valor-b"><br>
+  
+    <label for="valor-c">Valor C:</label>
+    <input type="number" id="valor-c" name="valor-c"><br>
+  
+    <button type="button" onclick="ordenarValores()">Calcular</button>
+  </form>
+  
+  <div id="resultado-ordem"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <h1>Positivo ou Negativo</h1>
+  
+  <form>
+    <label for="valor-x">Valor X:</label>
+    <input type="number" id="valor-x" name="valor-x"><br>
+  
+    <button type="button" onclick="verificarPositivoNegativo()">Verificar</button>
+  </form>
+  
+  <div id="resultado-positivo-negativo"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <h1>Par ou Ímpar</h1>
+  
+  <form>
+    <label for="valor-y">Valor Y:</label>
+    <input type="number" id="valor-y" name="valor-y"><br>
+  
+    <button type="button" onclick="verificarParImpar()">Verificar</button>
+  </form>
+  
+  <div id="resultado-par-impar"></div>
+  
+  <div class="linha-separadora"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
